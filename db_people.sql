@@ -1,5 +1,6 @@
 -- Database: db_people
 
+DROP DATABASE IF EXISTS db_people;
 CREATE DATABASE db_people;
 USE db_people;
 
