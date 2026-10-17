@@ -1,20 +1,11 @@
 # TP5 DPBO – PeopleData (Java Swing GUI + MySQL)
 
+## Janji
+Saya Bentar Bintang Umeir dengan nim 2509865 mengerjakan TP5 dalam mata kuliah DPBO untuk 
+keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 Tugas Praktikum 5 – Desain Pemrograman Berorientasi Objek (Modul 5: Java Swing GUI – Database dan Back-End).
 
 Program ini adalah pengembangan project **PeopleData** dari TP4. Jika sebelumnya data disimpan di `ArrayList` (hilang saat program ditutup), sekarang seluruh operasi **CRUD** (Create, Read, Update, Delete) terhubung ke database **MySQL** (`db_people`) melalui **JDBC**.
-
----
-
-## Daftar Isi
-1. [Struktur Folder](#struktur-folder)
-2. [Spesifikasi yang Dipenuhi](#spesifikasi-yang-dipenuhi)
-3. [Desain Program](#desain-program)
-4. [Penjelasan Alur](#penjelasan-alur)
-5. [Cara Menjalankan](#cara-menjalankan)
-6. [Dokumentasi Program Berjalan](#dokumentasi-program-berjalan)
-
----
 
 ## Struktur Folder
 
@@ -195,67 +186,50 @@ GUI (PeopleMenu)  →  Database (JDBC)  →  MySQL (db_people)
 ### 1. Tampilan Awal (Read)
 Tabel menampilkan data yang tersimpan di database.
 
-![Tampilan awal](Dokumentasi/01-tampilan-awal.png)
+<img width="516" height="440" alt="image" src="https://github.com/user-attachments/assets/cb312237-748e-4930-a2d4-ef07d4e70608" />
+
 
 ### 2. Create – Tambah Data Berhasil
 
-Pengisian form:
+Pengisian form, data berhasil di tambahkan dan tabel terupdate:
 
-![Isi form insert](Dokumentasi/02-insert-form.png)
-
-Dialog sukses dan tabel ter-update:
-
-![Insert berhasil](Dokumentasi/03-insert-berhasil.png)
+https://github.com/user-attachments/assets/79bbdbeb-2f95-4454-ba27-278565477444
 
 Data tersimpan di database (phpMyAdmin):
 
-![Data di phpMyAdmin](Dokumentasi/04-insert-phpmyadmin.png)
+<img width="958" height="527" alt="image" src="https://github.com/user-attachments/assets/6b093db0-8dc7-4a63-a8a3-47f48c9bf586" />
 
 ### 3. Error – Kolom Kosong saat Insert
 
-![Error kolom kosong insert](Dokumentasi/05-error-kosong-insert.png)
+<img width="514" height="442" alt="image" src="https://github.com/user-attachments/assets/a1025651-c8c6-4edf-ba86-51f2d165b255" />
 
 ### 4. Error – ID Duplikat saat Insert
 
-![Error ID duplikat](Dokumentasi/06-error-id-duplikat.png)
+<img width="524" height="440" alt="image" src="https://github.com/user-attachments/assets/20fef92d-fc6e-47d7-b97f-3772c0dbad66" />
 
 ### 5. Update – Ubah Data Berhasil
 
 Memilih baris pada tabel (form terisi otomatis, tombol menjadi Update, tombol Delete muncul):
 
-![Pilih baris](Dokumentasi/07-pilih-baris.png)
+<img width="512" height="439" alt="image" src="https://github.com/user-attachments/assets/118a228d-1cd0-4b6f-b7af-c883f4b1cfee" />
 
-Dialog sukses dan tabel ter-update:
+update berhasil dan tabel ter-update:
 
-![Update berhasil](Dokumentasi/08-update-berhasil.png)
+https://github.com/user-attachments/assets/9252d704-e96c-499a-a925-a55b6eb2036e
 
 ### 6. Error – Kolom Kosong saat Update
 
-![Error kolom kosong update](Dokumentasi/09-error-kosong-update.png)
+<img width="514" height="438" alt="image" src="https://github.com/user-attachments/assets/2a942589-ce29-40cf-8854-d657e8704f40" />
 
 ### 7. Delete – Hapus Data
 
 Dialog konfirmasi:
 
-![Konfirmasi hapus](Dokumentasi/10-konfirmasi-hapus.png)
+<img width="516" height="442" alt="image" src="https://github.com/user-attachments/assets/ce11681f-9bff-4b5c-b6d9-c7696e69d620" />
 
 Data terhapus dari tabel:
 
-![Delete berhasil](Dokumentasi/11-delete-berhasil.png)
-
-### 8. Bukti Data Tetap Ada Setelah Program Dibuka Ulang
-
-![Persistensi data](Dokumentasi/12-data-persisten.png)
-
-### 9. Screen Record (opsional)
-
-![Demo lengkap](Dokumentasi/demo.gif)
+<img width="516" height="446" alt="image" src="https://github.com/user-attachments/assets/6b325d01-914a-4923-be4b-82ac49c13fed" />
 
 ---
 
-## Identitas
-
-- **Nama** : _isi nama kamu_
-- **NIM** : _isi NIM kamu_
-- **Kelas** : C2
-- **Mata Kuliah** : Desain Pemrograman Berorientasi Objek
