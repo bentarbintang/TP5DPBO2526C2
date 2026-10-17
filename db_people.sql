@@ -12,8 +12,11 @@ CREATE TABLE person (
 );
 
 INSERT INTO `person` (id, nama, thn_lahir, kategori, level) VALUES
-('P001', 'Budi Santoso', 2003, 'Mahasiswa', 6),
-('P002', 'Siti Aminah', 1985, 'Dosen', 9),
-('P003', 'Rian Pratama', 1990, 'Staf', 7),
-('P004', 'Dewi Lestari', 1998, 'Alumni', 8),
-('P005', 'Ahmad Fauzi', 2004, 'Mahasiswa', 4);
+('P001', 'Luthfi', 2003, 'Mahasiswa', 6),
+('P002', 'Jaka', 1985, 'Dosen', 9),
+('P003', 'Rian', 1990, 'Staf', 7),
+('P004', 'Repan', 1998, 'Alumni', 8),
+('P005', 'Safaraz', 2004, 'Mahasiswa', 4),
+('P006', 'Bintang', 2007, 'Mahasiswa', 10),
+('P007', 'Umeir', 2007, 'Mahasiswa', 10),
+('P008', 'Bentar', 2007, 'Mahasiswa', 10);
